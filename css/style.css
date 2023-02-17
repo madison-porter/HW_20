@@ -5,11 +5,10 @@ body {
     color: #474747;
 }
 
-.navbar {
-    padding: 16px 32px;
-}
+/* Header */
 
-.bg-light {
+.customNav {
+    padding: 16px 32px;
     background-color: #474747 !important;
 }
 
@@ -30,6 +29,181 @@ body {
 .navbar-toggler {
     color: #f9f7f4;
 }
+
+/* Home Page */
+.jumbotron {
+    background-color: #474747;
+    width: 100%;
+    color: #F9F7F4;
+    padding-bottom: 96px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.jumbotron h1{
+    font-size: 48px;
+    font-weight: 400;
+    padding-left: 32px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.jumbotron p {
+    font-size: 24px;
+    line-height: 30px;
+    width: 80%;
+    padding-left: 32px;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    padding: 16px;
+    padding-right: 20%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #F9F7F4;
+}
+
+.arrow {
+    margin-left: 8px;
+}
+
+.projects {
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+.projectContainer{
+    background-color: #EAE3D9;
+    width: 60%;
+}
+
+.projectImage{
+    width: 100%;
+    height: auto;
+}
+
+.projectRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 48px;
+    margin-top: 48px;
+}
+
+.projectTitle {
+    padding: 8px;
+    text-align: left;
+    font-family: Source Serif Pro, serif;
+    font-size: 24px;
+    background-color: #F9F7F4;
+    color: #474747;
+}
+
+.projectLeft {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+} 
+
+/* About Page */
+.aboutMe {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 48px;
+    padding-top: 48px;
+}
+
+.aboutMe h1{
+    padding-left: 32px;
+}
+
+.aboutMe p { 
+    font-family: Montserrat;
+    font-size: 24px;
+    width: 60%;
+    padding-left: 32px;
+}
+
+.headshot {
+    height: auto;
+    width: 320px;
+    margin-right: 32px;
+    margin-bottom: 24px;
+}
+
+.CTA {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #474747;
+    margin-bottom: 16px;
+}
+
+button {
+    font-size: 24;
+    background-color: #474747;
+    color: #F9F7F4;
+    width: 15%;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.primaryButton {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 48px;
+}
+
+/* Featured Work Page */
+
+.featuredWork h3 {
+    width: 60%;
+}
+
+.pageTitle {
+    color: #474747;
+    text-align: center;
+    padding: 0px;
+    padding-top: 48px;
+}
+
+.featuredWork h3 {
+    font-family: Source Serif Pro;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.aboutProject {
+    padding: 8px;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 30px;
+    background-color: #F9F7F4;
+    color: #474747;
+}
+
+.project1, .project2, .project3, .project4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 96px;
+}
+
+/* Case Study Content */
 
 h1 {
     font-family: Source Serif Pro;
@@ -69,14 +243,12 @@ p, li {
 
 .designProcess {
     display: flex; 
+    flex-direction: column;
 }
 
 .processIcon {
     width: auto;
     height: 45px;
-}
-.subStep {
-    padding-left: 32px;
 }
 
 .quote {
@@ -91,4 +263,108 @@ p, li {
     width: 100%;
     height: auto;
     margin-bottom: 24px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #474747;
+    color: #F9F7F4;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    padding: 0px 32px;
+}
+
+h5 {
+    font-family: Source Serif Pro;
+    font-size: 40px;
+}
+
+h6 {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.initials {
+    width: 25%;
+    justify-content: flex-start;
+}
+
+.contact {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon {
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+}
+
+.contact li {
+    padding: 16px;
+    list-style-type: none;
+}
+
+/* Media Query Max-Width 1000px */
+@media only screen and (max-width: 1000px) {
+    .headshot {
+        display: none;
+    }
+
+    .subStep {
+        margin: auto;
+    }
+}
+
+/* Media Query Max-Width 600px */
+@media only screen and (max-width: 600px) {
+    .projectRight, .projectLeft {
+        align-items: center;
+    }
+
+    .projectTitle {
+        text-align: center;
+    }    
+
+    .aboutMe p {
+        font-size: 20px;
+        line-height: 30px;
+        width: 100%;
+        padding-right: 32px;
+    }
+
+    .CTA, .pageTitle {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .aboutProject {
+        font-size: 14px;
+    }
+
+    .project1, .project2, .project3, .project4 {
+        margin-bottom: 48px;
+    }
+
+    .basics, .designProcess {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .subStep p {
+        font-size: 16px;
+    }
+
 }
