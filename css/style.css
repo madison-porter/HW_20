@@ -1,0 +1,94 @@
+body {
+    font-family: 'Source Serif Pro', serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f7f4;
+    color: #474747;
+}
+
+.navbar {
+    padding: 16px 32px;
+}
+
+.bg-light {
+    background-color: #474747 !important;
+}
+
+.navbar-brand {
+    font-family: Source Serif Pro;
+    font-weight: 700;
+    color: #f9f7f4;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.nav-link {
+    color: #f9f7f4;
+}
+
+.navbar-toggler {
+    color: #f9f7f4;
+}
+
+h1 {
+    font-family: Source Serif Pro;
+    font-size: 48px;
+}
+
+h3 {
+    font-family: Source Serif Pro;
+    font-size: 36;
+    font-weight: 800;
+    padding: 32px 0px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 24px 0px;    
+}
+
+p, li {
+    font-size: 18px;
+    line-height: 34px;
+}
+
+#overview, #process, #research, #ideate, #design, #testIterate, #prototype, #conclusion, #thankYou {
+    margin-bottom: 84px;
+}
+
+#overview {
+    margin-top: 48px;
+}
+
+.screen {
+    width: 160px;
+    height: auto;
+}
+
+.designProcess {
+    display: flex; 
+}
+
+.processIcon {
+    width: auto;
+    height: 45px;
+}
+.subStep {
+    padding-left: 32px;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.visual {
+    margin-bottom: 24px;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+}
