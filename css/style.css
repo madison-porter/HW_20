@@ -82,7 +82,6 @@ a{
 }
 
 .projectContainer{
-    background-color: #EAE3D9;
     width: 60%;
 }
 
@@ -236,8 +235,8 @@ p, li {
     margin-top: 48px;
 }
 
-.screen {
-    width: 360px;
+.hero {
+    width: 100%;
     height: auto;
 }
 
