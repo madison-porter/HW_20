@@ -12,6 +12,10 @@ body {
     background-color: #474747 !important;
 }
 
+.navbar {
+    position: sticky;
+}
+
 .navbar-brand {
     font-family: Source Serif Pro;
     font-weight: 700;
@@ -27,6 +31,10 @@ body {
 }
 
 .navbar-toggler {
+    color: #f9f7f4;
+}
+
+.navbar :hover {
     color: #f9f7f4;
 }
 
@@ -47,6 +55,10 @@ body {
     padding-left: 32px;
     padding-bottom: 5px;
     margin: 0;
+}
+
+#last {
+    padding-bottom: 48px;
 }
 
 .jumbotron p {
@@ -115,29 +127,31 @@ a{
 
 /* About Page */
 .aboutMe {
-    width: 100%;
     display: flex;
     align-items: flex-end;
-    padding-bottom: 48px;
     padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 .aboutMe h1{
     padding-left: 32px;
+    width: 75%;
+    padding-bottom: 48px;
 }
 
 .aboutMe p { 
     font-family: Montserrat;
     font-size: 24px;
-    width: 60%;
+    width: 100%;
     padding-left: 32px;
 }
+
 
 .headshot {
     height: auto;
     width: 320px;
     margin-right: 32px;
-    margin-bottom: 24px;
+    margin-left: 10%;
 }
 
 .CTA {
@@ -148,21 +162,21 @@ a{
     margin-bottom: 16px;
 }
 
-button {
-    font-size: 24;
-    background-color: #474747;
-    color: #F9F7F4;
-    width: 15%;
-    padding: 16px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
 .primaryButton {
     display: flex;
     justify-content: center;
     padding-bottom: 48px;
+}
+
+.btn-primary {
+    background-color: #474747;
+    color: #F9F7F4;
+    border-color: #474747;
+}
+
+.btn:hover {
+    background-color: #474747;
+    border: #474747;
 }
 
 /* Featured Work Page */
@@ -320,6 +334,17 @@ h6 {
     .subStep {
         margin: auto;
     }
+
+    .aboutMe {
+        align-items: flex-start;
+        padding-top: 48px;
+    }
+
+    .aboutMe p {
+        width: 100%;
+        padding-right: 32px;
+    }
+
 }
 
 /* Media Query Max-Width 600px */
@@ -332,15 +357,22 @@ h6 {
         text-align: center;
     }    
 
+    .aboutMe {
+        padding-top: 48px;
+    }
+
     .aboutMe p {
         font-size: 20px;
         line-height: 30px;
-        width: 100%;
-        padding-right: 32px;
     }
 
     .CTA, .pageTitle {
         font-size: 40px;
+    }
+
+    .CTA {
+        padding-left: 32px;
+        padding-right: 32px;
     }
 
     h3 {

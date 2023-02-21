@@ -77,3 +77,15 @@ $("button").on({mouseenter: function (){
 
 });
 
+$(".navbar-brand").on({mouseenter: function (){
+    $(".navbar-brand").css({
+        "font-weight":"bold"
+    });
+},
+    mouseleave: function () {
+        $ (".navbar-brand").css ({
+            "font-weight":"normal"
+        });
+    }
+
+});
