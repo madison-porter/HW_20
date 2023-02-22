@@ -283,45 +283,21 @@ p, li {
 footer {
     background-color: #474747;
     color: #F9F7F4;
-    display: flex;
-    align-items: center;
     padding: 16px 32px;
 }
 
 h5 {
     font-family: Source Serif Pro;
     font-size: 40px;
+    color: #f9f7f4;
+    padding-right: 16px;
 }
 
 h6 {
     font-family: Montserrat;
     font-size: 12px;
     font-weight: 500;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
-
-.initials {
-    width: 25%;
-    justify-content: flex-start;
-}
-
-.contact {
-    width: 25%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.icon {
-    height: 32px;
-    width: 32px;
-    cursor: pointer;
-}
-
-.contact li {
-    padding: 16px;
-    list-style-type: none;
+    color: #F9F7F4;
 }
 
 /* Media Query Max-Width 1000px */
@@ -395,9 +371,5 @@ h6 {
 
     .subStep p {
         font-size: 16px;
-    }
-
-    footer {
-        flex-direction: column;
     }
 }
