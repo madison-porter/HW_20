@@ -283,10 +283,9 @@ p, li {
 footer {
     background-color: #474747;
     color: #F9F7F4;
-    height: 110px;
     display: flex;
     align-items: center;
-    padding: 0px 32px;
+    padding: 16px 32px;
 }
 
 h5 {
@@ -315,8 +314,8 @@ h6 {
 }
 
 .icon {
-    height: 45px;
-    width: 45px;
+    height: 32px;
+    width: 32px;
     cursor: pointer;
 }
 
@@ -398,4 +397,8 @@ h6 {
         font-size: 16px;
     }
 
+    footer {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
