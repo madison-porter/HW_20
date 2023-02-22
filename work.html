@@ -11,29 +11,30 @@
     </head>
 
     <body>
-
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light customNav">
-            <a class="navbar-brand" href="./index.html">MADISON PORTER</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="./work.html" id="work">Work</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./about.html" id="about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" id="resume">Resume</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.linkedin.com/in/madison-porter-06711074/" id="linkedin">LinkedIn</a>
-                </li>
-              </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary customNav sticky-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">MADISON PORTER</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./work.html" id="work">Work</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./about.html" id="about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./pdfs/Porter_Resume.pdf" id="resume">Resume</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="https://www.linkedin.com/in/madison-porter-06711074/" id="linkedin">LinkedIn</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </nav>
+          </nav>
 
         <section class="featuredWork">
 
@@ -53,7 +54,7 @@
                 <div class="project2">
                     <h3>Southwest Metro Animal Rescue Website Redesign</h3>
                     <div class="projectContainer">
-                        <img src="./images/SWMAR.png" class="projectImage">
+                        <a href="./southwestMetro.html"><img src="./images/SWMAR.png" class="projectImage"></a>
                     <div class="aboutProject">
                         <p>A responsive website redesign to create an accessible platform to find loving homes for pets in the community.</p>
                     </div>
@@ -64,7 +65,7 @@
                 <div class="project3">
                     <h3>Mobile Travel App Case Study</h3>
                     <div class="projectContainer">
-                        <img src="./images/travelApp.png" class="projectImage">
+                        <a href="#"><img src="./images/travelApp.png" class="projectImage"></a>
                         <div class="aboutProject">
                             <p>Our Travel App connects like-minded travelers so they can share recommendations and confidently plan their next trip.</p>
                         </div>
@@ -75,7 +76,7 @@
                 <div class="project4">
                     <h3>Minnesota Driver and Vehicle Services Website Redesign</h3>
                     <div class="projectContainer">
-                        <img src="./images/MNDVS.png" class="projectImage">
+                        <a href="#"><img src="./images/MNDVS.png" class="projectImage"></a>
                         <div class="aboutProject">
                             <p>A redesign of the Minnesota Driver and Vehicle Services website to create a responsive solution.</p>
                         </div>
@@ -99,6 +100,8 @@
         </footer>
 
     </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
     <script
         src="https://code.jquery.com/jquery-3.6.3.js"

@@ -8,12 +8,8 @@ body {
 /* Header */
 
 .customNav {
-    padding: 16px 32px;
+    padding: 16px 16px;
     background-color: #474747 !important;
-}
-
-.navbar {
-    position: sticky;
 }
 
 .navbar-brand {
@@ -26,7 +22,7 @@ body {
     justify-content: flex-end;
 }
 
-.nav-link {
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     color: #f9f7f4;
 }
 
@@ -276,6 +272,10 @@ p, li {
     width: 100%;
     height: auto;
     margin-bottom: 24px;
+}
+
+.presentation {
+    width: 100%;
 }
 
 /* Footer */
