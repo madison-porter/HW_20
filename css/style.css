@@ -212,6 +212,10 @@ a{
     margin-bottom: 96px;
 }
 
+.project1 button {
+    align-items: flex-start;
+}
+
 /* Case Study Content */
 
 h1 {
