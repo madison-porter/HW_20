@@ -142,6 +142,7 @@ a{
     font-size: 24px;
     width: 100%;
     padding-left: 32px;
+    padding-bottom: 32px;
 }
 
 
@@ -163,7 +164,7 @@ a{
 .primaryButton {
     display: flex;
     justify-content: center;
-    padding-bottom: 140px;
+    padding-bottom: 100px;
 }
 
 .btn-primary {
