@@ -15,6 +15,7 @@ body {
 .navbar-brand {
     font-family: Source Serif Pro;
     font-weight: 700;
+    font-size: 32px;
     color: #f9f7f4;
 }
 
@@ -374,4 +375,6 @@ h6 {
     .subStep p {
         font-size: 16px;
     }
+
+
 }
